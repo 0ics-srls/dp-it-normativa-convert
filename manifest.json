@@ -1,0 +1,53 @@
+{
+  "specVersion": "1.1",
+  "type": "stdin",
+  "name": "dp-it-normativa-convert",
+  "version": "0.1.0",
+  "description": "Converts the Normattiva export zip of an act into a load plan: <stem>.plan.json (vigente units, SCD-2 history rows, act row), <stem>.akn.xml (latest version) and <stem>.convert.json. Python; writes the data directory only, no DB.",
+  "author": "open-lex-it",
+  "authentication": false,
+  "actions": {
+    "execute": {
+      "description": "For each item read <dirIn>/<stem>.zip and write the plan files into dirOut. An act that cannot be converted is skipped and the run ends with system_error listing the failed keys.",
+      "input": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "description": "the acts to convert, as reported by the detect step",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": { "type": "string", "minLength": 1 },
+                "meta": {
+                  "type": "object",
+                  "properties": { "kind": { "const": "normattiva" }, "actId": { "type": "string" } },
+                  "required": ["kind", "actId"]
+                }
+              },
+              "required": ["key", "meta"]
+            }
+          },
+          "dirIn": { "type": "string", "description": "directory with the grab output" },
+          "dirOut": { "type": "string", "description": "directory for the plan files" },
+          "lottoId": { "type": "string", "description": "batch label (passthrough)" },
+          "collection": { "type": "string", "description": "label stored on every unit (default NORMATTIVA)" }
+        },
+        "required": ["items", "dirIn", "dirOut"]
+      },
+      "output": {
+        "type": "object",
+        "description": "{ dirOut, converted: [{key, plan, akn, meta}], metrics: {acts, units, versions, versionRows} }"
+      }
+    },
+    "terminate": {
+      "description": "Stop and clean up.",
+      "input": { "type": "object", "properties": {} }
+    }
+  },
+  "execution": {
+    "timeout": 3600,
+    "memoryLimit": "512Mi",
+    "cpuLimit": "1.0"
+  }
+}

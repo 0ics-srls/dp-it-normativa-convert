@@ -1,6 +1,6 @@
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = [".", "src"]
 markers = [
     "unit: hermetic unit test (runs in the image build)",
     "integration: needs Docker (Postgres + pgvector); excluded from the image build",
@@ -9,7 +9,7 @@ markers = [
 [tool.mypy]
 python_version = "3.12"
 strict = true
-mypy_path = "src:tests"
+mypy_path = "src:tests:tests/unit:."
 explicit_package_bases = true
 
 [tool.ruff]
