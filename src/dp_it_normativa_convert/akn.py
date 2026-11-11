@@ -8,7 +8,7 @@ identical to the legacy reader on purpose (the phase 83 parity run compares both
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date
 from xml.etree.ElementTree import Element, ParseError
 
@@ -40,6 +40,8 @@ class Unit:
     text_raw: str
     text_contextual: str
     version_date: date
+    act_urn: str = ""
+    collection: str | None = None
 
 
 def create_unit(  # noqa: PLR0913, PLR0917 - the legacy Unit.Create signature
@@ -92,7 +94,22 @@ def _value(element: Element | None) -> str | None:
     return None if element is None else "".join(element.itertext())
 
 
+@dataclass(frozen=True)
+class AknDocument:
+    """The meta of an act together with its units; every unit carries the base urn of the act as ``act_urn``."""
+
+    title: str
+    base_urn: str
+    version_date: date
+    units: list[Unit]
+
+
 def read(xml: str) -> list[Unit]:
+    """Read an act into units (see :func:`read_document`)."""
+    return read_document(xml).units
+
+
+def read_document(xml: str) -> AknDocument:
     """Read an act into units. Body articles and attachment articles are both read, never either/or."""
     if not xml or not xml.strip():
         raise AknError("empty document")
@@ -109,7 +126,8 @@ def read(xml: str) -> list[Unit]:
         title, base_urn, version_date = _read_meta(act)
     except ValueError as error:
         raise AknError(f"unreadable meta: {error}") from error
-    return [*_read_standard(act, parents, title, base_urn, version_date), *_read_codice(act, title, base_urn, version_date)]
+    units = [*_read_standard(act, parents, title, base_urn, version_date), *_read_codice(act, title, base_urn, version_date)]
+    return AknDocument(title, base_urn, version_date, [replace(u, act_urn=base_urn) for u in units])
 
 
 def _read_meta(act: Element) -> tuple[str, str, date]:
