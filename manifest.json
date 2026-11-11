@@ -2,8 +2,8 @@
   "specVersion": "1.1",
   "type": "stdin",
   "name": "dp-it-normativa-convert",
-  "version": "0.2.0",
-  "description": "Converts the Normattiva export zip of an act into a load plan: <stem>.plan.json (vigente units, SCD-2 history rows, act row), <stem>.akn.xml (latest version) and <stem>.convert.json. Python; writes the data directory only, no DB.",
+  "version": "0.2.1",
+  "description": "Converts the Normattiva export zip of an act into a load plan: <stem>.plan.json (units, SCD-2 history, act row), <stem>.akn.xml (latest version), <stem>.convert.json. Writes files only, no DB.",
   "author": "open-lex-it",
   "authentication": false,
   "actions": {
