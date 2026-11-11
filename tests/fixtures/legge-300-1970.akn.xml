@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Trimmed fixture: Statuto dei lavoratori (L. 300/1970), eId-based standard act, 3 articles. -->
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="legge">
+    <meta>
+      <identification source="#self">
+        <FRBRWork>
+          <FRBRthis value="urn:nir:stato:legge:1970-05-20;300"/>
+          <FRBRuri value="urn:nir:stato:legge:1970-05-20;300"/>
+          <FRBRalias value="Statuto dei lavoratori" name="titoloBreve"/>
+          <FRBRdate date="1970-05-20" name="enactment"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="urn:nir:stato:legge:1970-05-20;300"/>
+          <FRBRdate date="2012-07-18" name="vigenza"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <body>
+      <article eId="art_1">
+        <num>Art. 1</num>
+        <heading>Libertà di opinione</heading>
+        <paragraph eId="art_1__para_1">
+          <num>1.</num>
+          <content><p>I lavoratori, senza distinzione di opinioni politiche, sindacali e di fede religiosa, hanno diritto, nei luoghi dove prestano la loro opera, di manifestare liberamente il proprio pensiero.</p></content>
+        </paragraph>
+      </article>
+      <article eId="art_13">
+        <num>Art. 13</num>
+        <heading>Mansioni del lavoratore</heading>
+        <content><p>Il prestatore di lavoro deve essere adibito alle mansioni per le quali è stato assunto.</p></content>
+      </article>
+      <article eId="art_18">
+        <num>Art. 18</num>
+        <heading>Reintegrazione nel posto di lavoro</heading>
+        <paragraph eId="art_18__para_1">
+          <num>1.</num>
+          <content><p>Il giudice, con la sentenza con la quale dichiara la nullità del licenziamento, ordina al datore di lavoro la reintegrazione del lavoratore nel posto di lavoro.</p></content>
+        </paragraph>
+        <paragraph eId="art_18__para_2">
+          <num>2.</num>
+          <content><p>Nel caso di ((licenziamento intimato senza giusta causa)) il giudice condanna altresì il datore di lavoro al risarcimento del danno.</p></content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2026-09-10/157/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2026-09-10/157"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2026-09-10;157"/>
+                    <FRBRalias name="eli" value="eli/id/2026/09/10/26G00178/ORIGINAL"/>
+                    <FRBRdate date="2026-09-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/09/10/26G00178/ORIGINAL" aknrelname="eli/id/2026/09/10/26G00178/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attivita' energetiche strategiche. (26G00178)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00178" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2026-09-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2026-09-10/157/ita@2026-09-11/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2026-09-10/157/ita@2026-09-11"/>
+                    <FRBRdate date="2026-09-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/09/10/26G00178/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/09/10/26G00178/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/09/10/26G00178/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2026-09-10/157/ita@2026-09-11/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2026-09-10/157/ita@2026-09-11.xml"/>
+                    <FRBRdate date="2026-09-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/09/10/26G00178/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-09-10" name="" number="210" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-09-10" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2026-09-10;157#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1995-10-26;504#Allegato I"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modiifca dell'allegato I.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2026-09-10;157#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2025-03-28;43#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) la modifica dell'art. 3, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2026-09-10;157#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2026-03-18;33#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 4) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2026-09-10/157/!main" showAs=""/>
+            </references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/09/10/26G00178/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attivita' energetiche strategiche. (26G00178)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00178</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-09-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/09/10/26G00178/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/09/10/26G00178/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/09/10/26G00178/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/09/10/26G00178/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2026-09-10">10 settembre 2026</docDate>
+                <docNumber>157</docNumber>
+                <docTitle>Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attivita' energetiche strategiche. (26G00178) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 11/09/2026
+
+Decreto-Legge convertito con modificazioni dalla <ref eId="content__ref_1" href="/akn/it/act/legge/stato/2026-11-06/202/!main">L. 6 novembre 2026, n. 202</ref> (in G.U. 09/11/2026, n. 261)</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77">articoli 77</ref> e <ref eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5">87 quinto comma della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza di adottare misure per contenere gli effetti derivanti dal perdurante aumento del costo dei carburanti;</p>
+            <p>Ritenuta, altresi', la straordinaria necessita' e urgenza di adottare misure di accelerazione dei procedimenti concernenti infrastrutture e attivita' energetiche strategiche;</p>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 10 settembre 2026;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri, dei Ministri dell'economia e delle finanze, dell'ambiente e della sicurezza energetica e delle infrastrutture e dei trasporti;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Disposizioni in materia di accisa sul gasolio usato come carburante e di autotrasporto</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In considerazione del perdurare dell'eccezionale incremento dei prezzi dei prodotti energetici, l'aliquota di accisa sugli oli da gas o gasolio usato come carburante, di cui all'Allegato I al testo unico delle disposizioni legislative concernenti le imposte sulla produzione e sui consumi e relative sanzioni penali e amministrative, approvato con il <ref eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1995-10-26/504/!main">decreto legislativo 26 ottobre 1995, n. 504</ref>, e' rideterminata, dall'11 al 17 settembre 2026, nella misura di 532,90 euro per mille litri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per il medesimo periodo di cui al comma 1, l'aliquota di accisa di cui all'<ref eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2025-03-28/43/!main#art_3-com4">articolo 3, comma 4, del decreto legislativo 28 marzo 2025, n. 43</ref>, applicata ai gasoli paraffinici ottenuti da sintesi o da idrotrattamento (HVO) e al biodiesel, immessi in consumo tal quali per essere impiegati come carburanti, che soddisfano le condizioni previste dall'articolo 44, paragrafo 5, del regolamento (UE) n. 651/2014 della Commissione, del 17 giugno 2014, e' rideterminata nella misura di 532,90 euro per mille litri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Agli oneri derivanti dai commi 1 e 2, valutati in 86 milioni di euro per l'anno 2026 e in 0,9 milioni di euro per l'anno 2028, si provvede ai sensi dell'articolo 3, comma 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>All'articolo 3, comma 1, primo periodo, del <ref eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2026-03-18/33/!main">decreto-legge 18 marzo 2026, n. 33</ref>, convertito, con modificazioni, dalla <ref eId="content__ref_7" href="/akn/it/act/legge/stato/2026-05-13/79/!main">legge 13 maggio 2026, n. 79</ref>, le parole: «da marzo a agosto» sono sostituite dalle seguenti: «da marzo a settembre». Per le finalita' di cui al primo periodo, l'autorizzazione di spesa di cui all'<ref eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2026/33/!main#art_3-com1">articolo 3, comma 1, del decreto-legge n. 33 del 2026</ref>, convertito, con modificazioni, dalla <ref eId="content__ref_9" href="/akn/it/act/legge/stato/2026-05-13/79/!main">legge 13 maggio 2026, n. 79</ref>, e' incrementata di 16 milioni di euro per l'anno 2026. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Agli oneri derivanti dal comma 4, pari a 16 milioni di euro per l'anno 2026, si provvede ai sensi dell'articolo 3, comma 2. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Misure di accelerazione dei procedimenti concernenti infrastrutture e attivita' energetiche strategiche 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nei casi di procedimenti amministrativi per lo svolgimento di attivita' di prospezione, ricerca e coltivazione di idrocarburi su terraferma, ivi inclusi quelli relativi alla perforazione di pozzi, al rilascio, alla proroga o alla modificazione di permessi di ricerca e di concessioni di coltivazione di idrocarburi, qualora la regione interessata, entro il termine di 45 giorni dalla ricezione dalla documentazione a corredo dell'istanza, non si sia espressa sull'intesa, il Presidente del Consiglio dei ministri, su proposta del Ministro dell'ambiente e della sicurezza energetica, assegna alla regione medesima un termine non superiore a sessanta giorni per provvedere. Qualora il mancato rispetto del termine per l'espressione dell'intesa regionale si verifichi nell'ambito del procedimento unico di cui all'<ref eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2022-03-01/17/!main#art_16-com6">articolo 16, comma 6, del decreto-legge 1° marzo 2022, n. 17</ref>, convertito, con modificazioni, dalla <ref eId="content__ref_11" href="/akn/it/act/legge/stato/2022-04-27/34/!main">legge 27 aprile 2022, n. 34</ref>, il termine assegnato ai sensi del primo periodo del presente comma non e' superiore a trenta giorni. Entro il termine assegnato ai sensi del primo e del secondo periodo del presente comma, il Presidente del Consiglio dei ministri o il Ministro dell'ambiente e della sicurezza energetica promuove un'apposita interlocuzione con la regione interessata al fine di acquisire le ragioni del ritardo e ogni elemento utile affinche' la regione medesima si esprima sull'intesa.
+L'interlocuzione non sospende il decorso del termine assegnato ai sensi del primo periodo del comma. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Qualora la regione non si esprima entro il termine assegnato ai sensi del comma 1 e l'inerzia risulti idonea a compromettere il tempestivo svolgimento di attivita' di interesse strategico nazionale concernenti la sicurezza energetica, la continuita' degli approvvigionamenti energetici o la tutela dell'unita' economica della Repubblica, il Consiglio dei ministri, su proposta del Presidente del Consiglio dei ministri, sentita la regione interessata e nel rispetto del principio di leale collaborazione, nomina un commissario ad acta al quale e' attribuito il potere di rendere, in sostituzione della regione interessata, l'intesa, assegnando il termine entro il quale provvedere. Alla riunione del Consiglio dei ministri partecipa il Presidente della regione interessata. Il commissario ad acta, nello svolgimento delle attivita' propedeutiche all'adozione dell'atto sostitutivo, assicura forme adeguate di pubblicita' e informazione dei territori e dei comuni interessati in ordine ai profili tecnici, socioeconomici e alle tutele ambientali del progetto. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Consiglio dei ministri, con la deliberazione di cui al comma 2 o con successiva deliberazione, adottata su proposta del Presidente del Consiglio dei ministri, puo' nominare un subcommissario, che coadiuva il commissario ad acta nello svolgimento delle attivita' a esso attribuite. In caso di assenza o impedimento temporaneo del commissario ad acta, il subcommissario ne esercita le funzioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il commissario ad acta di cui al comma 2 puo', altresi', essere nominato dal Presidente del Consiglio dei ministri su richiesta motivata della regione interessata, sentito il Ministro dell'ambiente e della sicurezza energetica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Al commissario ad acta e al subcommissario non sono corrisposti compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. Le amministrazioni interessate provvedono agli adempimenti previsti dal presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Fondo per gli interventi strutturali di politica economica di cui all'<ref eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref eId="content__ref_13" href="/akn/it/act/legge/stato/2004-12-27/307/!main">legge 27 dicembre 2004, n. 307</ref> e' incrementato di 18,6 milioni di euro per l'anno 2027. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli oneri derivanti dal comma 1 e dall'articolo 1, comma 4, pari a 16 milioni di euro per l'anno 2026 e a 18,6 milioni di euro per l'anno 2027 e dai commi 1 e 2 del medesimo articolo, valutati in 86 milioni di euro per l'anno 2026 e in 0,9 milioni di euro per l'anno 2028, si provvede, per l'anno 2027, a valere sulle maggiori entrate di cui all'articolo 1 e, per gli anni 2026 e 2028, mediante corrispondente riduzione del Fondo per gli interventi strutturali di politica economica di cui all'<ref eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref eId="content__ref_15" href="/akn/it/act/legge/stato/2004-12-27/307/!main">legge 27 dicembre 2004, n. 307</ref>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Napoli, addi' 10 settembre 2026 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Salvini, Ministro delle infrastrutture e dei trasporti Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
