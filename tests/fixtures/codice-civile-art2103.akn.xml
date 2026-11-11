@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Trimmed fixture: Codice civile art. 2103 (vigente, post-Jobs-Act), codici attachment scheme.
+     Single attachment carrying its own article-scoped FRBR URN; act body is thin. -->
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="codice">
+    <meta>
+      <identification source="#self">
+        <FRBRWork>
+          <FRBRthis value="urn:nir:stato:codice.civile:1942-03-16;262"/>
+          <FRBRuri value="urn:nir:stato:codice.civile:1942-03-16;262"/>
+          <FRBRalias value="Codice civile" name="titoloBreve"/>
+          <FRBRdate date="1942-03-16" name="enactment"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="urn:nir:stato:codice.civile:1942-03-16;262"/>
+          <FRBRdate date="2015-06-25" name="vigenza"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <body/>
+    <attachment>
+      <doc name="articolo">
+        <meta>
+          <identification source="#self">
+            <FRBRWork>
+              <FRBRthis value="urn:nir:stato:codice.civile:1942-03-16;262~art2103"/>
+              <FRBRdate date="1942-03-16" name="enactment"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="urn:nir:stato:codice.civile:1942-03-16;262~art2103"/>
+              <FRBRdate date="2015-06-25" name="vigenza"/>
+            </FRBRExpression>
+          </identification>
+        </meta>
+        <mainBody>
+          <article eId="art2103">
+            <num>Art. 2103</num>
+            <heading>Prestazione del lavoro</heading>
+            <paragraph>
+              <num>1.</num>
+              <content><p>Il lavoratore deve essere adibito alle mansioni per le quali è stato assunto o a quelle corrispondenti all'inquadramento superiore che abbia successivamente acquisito ovvero a mansioni riconducibili allo stesso livello e categoria legale di inquadramento delle ultime effettivamente svolte.</p></content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </attachment>
+  </act>
+</akomaNtoso>
